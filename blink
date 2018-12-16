@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+echo "Enter the time difference(in seconds):"
+read t  
+i="1"
+while [ $i -gt 0 ]
+do
+	sudo echo 2 > /sys/class/leds/dell::kbd_backlight/brightness
+	sleep $t
+	sudo echo 1 > /sys/class/leds/dell::kbd_backlight/brightness
+	sleep $t
+	sudo echo 0 > /sys/class/leds/dell::kbd_backlight/brightness 
+	sleep $t
+	i=$[$i+1]
+done
