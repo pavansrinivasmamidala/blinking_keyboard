@@ -19,7 +19,11 @@ sudo su
 ```bash
 ./blink.sh
 ```
-6) Only run this in root as we need administrator access to change the brightness level of the keyboard!
+6) It asks for the time interval enter any number below 3 as you wouldn't call it blinking if it's more than that..!!
+
+TIP: You can enter decimal values too(I recommend 0.45)
+
+!!! Only run this in root as we need administrator access to change the brightness level of the keyboard !!!
 
 
 
