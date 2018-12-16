@@ -2,7 +2,7 @@
 # Blink your backlight keyboard.
 ### steps to do this: 
 
-1) Fire up your terminal by pressing ctrl+alt+t
+1) Fire up your terminal by pressing ctrl+alt+t (or else clicking the logo like a noob!)
 2) clone this repository 
 ```bash
 git clone https://github.com/pavansrinivasmamidala/blinking_keyboard
@@ -21,9 +21,9 @@ sudo su
 ```
 6) It asks for the time interval enter any number below 3 as you wouldn't call it blinking if it's more than that..!!
 
-TIP: You can enter decimal values too(I recommend 0.45)
+  TIP: You can enter decimal values too(I recommend 0.45)
 
-!!! Only run this in root as we need administrator access to change the brightness level of the keyboard !!!
+  !!! Only run this in root as we need administrator access to change the brightness level of the keyboard !!!
 
 
 
