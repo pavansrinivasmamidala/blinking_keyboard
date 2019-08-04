@@ -23,7 +23,7 @@ sudo su
 
   TIP: You can enter decimal values too(I recommend 0.45)
 
-  !!! Only run this in root as we need administrator access to change the brightness level of the keyboard !!!
+  !!! Only run this in sudo as we need root access to change the brightness level of the keyboard !!!
 
 
 
